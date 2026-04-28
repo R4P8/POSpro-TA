@@ -1,0 +1,45 @@
+# Git
+.git
+.gitignore
+
+# Binary output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+app
+go-be-api
+
+# Build directories
+dist/
+build/
+tmp/
+out/
+
+# Dependency directories (kalau ada)
+vendor/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Test
+coverage.out
+*.test
+
+# Env files
+.env
+.env.*
